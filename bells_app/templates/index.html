@@ -24,10 +24,10 @@
                 <span class="icon" onclick="hidemenu()">&#10005;</span>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="Admission_page.html">Admission</a></li>
+                    <li><a href="{% url 'admission_page' %}">Admission</a></li>
                     <li><a href="#course_call">Course</a></li>
                     <li><a href="fees_page.html">Fees</a></li>
-                    <li><a href="Contact_page.html">Contact</a></li>
+                    <li><a href="{% url 'contact_page' %}">Contact</a></li>
                 </ul>
             </div> 
             <span class="icon" onclick="showmenu()">&#9776;</span>
